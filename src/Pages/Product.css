@@ -1,0 +1,31 @@
+.product-page {
+  background-color: #1c1c1c;
+  min-height: 100vh;
+  padding-bottom: 50px;
+}
+
+.product-carousel-img {
+  max-height: 500px;
+  object-fit: cover;
+  opacity: 0.9;
+}
+
+.products-container {
+  padding: 0 40px;
+}
+
+.product-card img {
+  height: 250px;
+  object-fit: cover;
+  border-bottom: 2px solid #444;
+}
+
+.product-card {
+  border: 1px solid #333;
+  transition: 0.3s;
+}
+
+.product-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 20px rgba(255, 255, 255, 0.1);
+}

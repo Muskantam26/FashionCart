@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #0f0f0f, #1a1a1a); /* Dark gradient */
+  color: white;
+  
+}
+.carddiv{
+  display: flex;
+  width: 100%;
+  margin-left: 120px;
+ 
+}
+.one{
+  height: 30%;
+}
+.two{
+  margin-left: 30px;
+  height: 30%;
+  
+}
+.three{
+  margin-left: 30px;
+
+  height: 30%;
+}
