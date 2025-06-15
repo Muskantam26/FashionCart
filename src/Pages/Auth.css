@@ -1,42 +1,9 @@
-body {
-  margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(to right, #0f0f0f, #1a1a1a); /* Dark gradient */
-  color: white;
-  
-}
-.carddiv{
-  display: flex;
-  width: 100%;
-  margin-left: 120px;
- 
-}
-.one{
-  height: 50%;
-
-}
-.two{
-  margin-left: 30px;
-  height: 50%;
-  
-  
-}
-.three{
-  margin-left: 30px;
-
-  height: 50%;
-}
-
-
-/* register log in */
-
-
 .auth-container {
   max-width: 400px;
   margin: 100px auto;
   padding: 30px;
   background-color: #000;
-  color: white;
+  color: #ff4081;
   border-radius: 12px;
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
 }
@@ -60,7 +27,7 @@ body {
 }
 
 .auth-form button {
-  background-color: white;
+  background-color:#ff4081;
   color: black;
   border: none;
   padding: 12px;
@@ -79,8 +46,10 @@ body {
   margin-top: 10px;
   text-align: center;
   font-size: 14px;
+  color: white;
 }
+
 .auth-form a {
-  color: #fff;
+  color: #ff4081;
   font-weight: bold;
 }
