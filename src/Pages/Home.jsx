@@ -4,10 +4,16 @@ import Card from 'react-bootstrap/Card';
 import Nav from '../components/Navbar';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-
+import { useNavigate } from 'react-router-dom';
 
 
 const Home=()=>{
+   const navigate = useNavigate();
+   const handleCartClick = (item) => {
+    navigate('/cart', {
+      state: { item }
+    });
+  };
 return(
 <>
 
@@ -26,7 +32,11 @@ return(
           Some quick example text to build on the card title and make up the
           bulk of the card's content.
         </Card.Text>
-        <Button variant="primary" style={{backgroundColor:'black'}} >Cart</Button>
+        <Button variant="primary" style={{backgroundColor:'black'}}  onClick={() => handleCartClick({
+    img: 'src/images/img1.jpeg',
+    title: 'Card Title',
+    description: 'Some quick example text to build on the card title and make up the bulk of the card\'s content.'
+  })} >Add to Cart</Button>
       </Card.Body>
     </Card>
     <br />
@@ -39,7 +49,11 @@ return(
           Some quick example text to build on the card title and make up the
           bulk of the card's content.
         </Card.Text>
-        <Button variant="primary" style={{backgroundColor:'black'}}>Cart</Button>
+        <Button variant="primary" style={{backgroundColor:'black'}}   onClick={() => handleCartClick({
+                img: "src/images/img2.jpeg",
+                title: "Stylish Jacket",
+                description: "A premium black jacket for winters."
+              })}  >Add to Cart</Button>
       </Card.Body>
     </Card>
     <br />
@@ -51,7 +65,11 @@ return(
           Some quick example text to build on the card title and make up the
           bulk of the card's content.
         </Card.Text>
-        <Button variant="primary" style={{backgroundColor:'black'}}>Cart</Button>
+        <Button variant="primary" style={{backgroundColor:'black'}}   onClick={() => handleCartClick({
+                img: "src/images/img3.jpeg",
+                title: "Stylish Jacket",
+                description: "A premium black jacket for winters."
+              })}  >Add to Cart</Button>
       </Card.Body>
     </Card>
     <br />
@@ -68,7 +86,11 @@ return(
           Some quick example text to build on the card title and make up the
           bulk of the card's content.
         </Card.Text>
-        <Button variant="primary" style={{backgroundColor:'black'}}>Cart</Button>
+        <Button variant="primary" style={{backgroundColor:'black'}}  onClick={() => handleCartClick({
+                img: "src/images/img4.jpg",
+                title: "Stylish Jacket",
+                description: "A premium black jacket for winters."
+              })}  >Add to Cart</Button>
       </Card.Body>
     </Card>
     <br />
@@ -80,7 +102,11 @@ return(
           Some quick example text to build on the card title and make up the
           bulk of the card's content.
         </Card.Text>
-        <Button variant="primary" style={{backgroundColor:'black'}}>Cart</Button>
+        <Button variant="primary" style={{backgroundColor:'black'}}   onClick={() => handleCartClick({
+                img: "src/images/img5.jpg",
+                title: "Stylish Jacket",
+                description: "A premium black jacket for winters."
+              })}  >Add to Cart</Button>
       </Card.Body>
     </Card>
     <br />
@@ -92,7 +118,11 @@ return(
           Some quick example text to build on the card title and make up the
           bulk of the card's content.
         </Card.Text>
-        <Button variant="primary" style={{backgroundColor:'black'}}>Cart</Button>
+        <Button variant="primary" style={{backgroundColor:'black'}}   onClick={() => handleCartClick({
+                img: "src/images/img6.jpeg",
+                title: "Stylish Jacket",
+                description: "A premium black jacket for winters."
+              })}  >Add to Cart</Button>
       </Card.Body>
     </Card>
     <br />
@@ -107,7 +137,11 @@ return(
           Some quick example text to build on the card title and make up the
           bulk of the card's content.
         </Card.Text>
-        <Button variant="primary" style={{backgroundColor:'black'}}>Cart</Button>
+        <Button variant="primary" style={{backgroundColor:'black'}}  onClick={() => handleCartClick({
+                img: "src/images/img7.jpeg",
+                title: "Stylish Jacket",
+                description: "A premium black jacket for winters."
+              })}  >Add to Cart</Button>
       </Card.Body>
     </Card>
     <br />
@@ -119,7 +153,11 @@ return(
           Some quick example text to build on the card title and make up the
           bulk of the card's content.
         </Card.Text>
-        <Button variant="primary"  style={{backgroundColor:'black'}}>Cart</Button>
+        <Button variant="primary"  style={{backgroundColor:'black'}}   onClick={() => handleCartClick({
+                img: "src/images/img8.jpeg",
+                title: "Stylish Jacket",
+                description: "A premium black jacket for winters."
+              })} >Add to Cart</Button>
       </Card.Body>
     </Card>
     <br />
@@ -131,7 +169,11 @@ return(
           Some quick example text to build on the card title and make up the
           bulk of the card's content.
         </Card.Text>
-        <Button variant="primary" style={{backgroundColor:'black'}}>Cart</Button>
+        <Button variant="primary" style={{backgroundColor:'black'}}   onClick={() => handleCartClick({
+                img: "src/images/img9.jpeg",
+                title: "Stylish Jacket",
+                description: "A premium black jacket for winters."
+              })} >Add toCart</Button>
       </Card.Body>
     </Card>
     <br />

@@ -32,7 +32,7 @@ const Register = () => {
   };
 
   return (
-    <div className="auth-container">
+    <div className="auth-container"  >
       <h2>Create Account</h2>
       <form className="auth-form" onSubmit={handleSubmit}>
         <input type="text" name="username" placeholder="Full Name" onChange={handleChange} required />

@@ -4,6 +4,7 @@ import Login from "./Pages/Login"
 import Home from "./Pages/Home"
 import Nav from "./components/Navbar"
 import Footer from "./components/Footer"
+import Cart from "./Pages/Cart"
 
 
 
@@ -18,6 +19,7 @@ const App =()=>  {
       <Route path="/register" element={<Register />} />
       <Route path="/login" element={<Login />} />
       <Route path="/home" element={<Home />} />
+        <Route path="/cart" element={<Cart />} />
 
    </Routes>
 

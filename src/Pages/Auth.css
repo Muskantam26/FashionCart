@@ -1,13 +1,16 @@
 .auth-container {
   max-width: 400px;
-  /* margin: 100px auto; */
+  width: 90%;
   padding: 30px;
   background-color: #403d3d;
   color: #ff4081;
   border-radius: 12px;
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+  margin-left: 550px;
+  margin-top: 130px;
+  
+  
 }
-
 
 .auth-container h2 {
   text-align: center;
