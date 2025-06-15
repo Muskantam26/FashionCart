@@ -8,79 +8,26 @@ body {
 .carddiv{
   display: flex;
   width: 100%;
-  margin-left: 120px;
+  /* margin-left: 120px; */
  
 }
 .one{
   height: 50%;
+  padding-left: 4%;
 
 }
 .two{
-  margin-left: 30px;
+  /* margin-left: 30px; */
+  padding-left: 7%;
   height: 50%;
   
   
 }
 .three{
-  margin-left: 30px;
+  /* margin-left: 30px; */
+  padding-left: 7%;
 
   height: 50%;
 }
 
 
-/* register log in */
-
-
-.auth-container {
-  max-width: 400px;
-  margin: 100px auto;
-  padding: 30px;
-  background-color: #000;
-  color: white;
-  border-radius: 12px;
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
-}
-
-.auth-container h2 {
-  text-align: center;
-  margin-bottom: 25px;
-}
-
-.auth-form {
-  display: flex;
-  flex-direction: column;
-}
-
-.auth-form input {
-  margin-bottom: 15px;
-  padding: 12px;
-  border: none;
-  border-radius: 8px;
-  outline: none;
-}
-
-.auth-form button {
-  background-color: white;
-  color: black;
-  border: none;
-  padding: 12px;
-  border-radius: 8px;
-  cursor: pointer;
-  font-weight: bold;
-  transition: 0.3s ease;
-}
-
-.auth-form button:hover {
-  background-color: #444;
-  color: white;
-}
-
-.auth-form p {
-  margin-top: 10px;
-  text-align: center;
-  font-size: 14px;
-}
-.auth-form a {
-  color: #fff;
-  font-weight: bold;
-}

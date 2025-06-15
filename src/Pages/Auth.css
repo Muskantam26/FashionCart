@@ -1,12 +1,13 @@
 .auth-container {
   max-width: 400px;
-  margin: 100px auto;
+  /* margin: 100px auto; */
   padding: 30px;
-  background-color: #000;
+  background-color: #403d3d;
   color: #ff4081;
   border-radius: 12px;
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
 }
+
 
 .auth-container h2 {
   text-align: center;
@@ -52,4 +53,7 @@
 .auth-form a {
   color: #ff4081;
   font-weight: bold;
+}
+.auth-form a:hover{
+    color: white;
 }

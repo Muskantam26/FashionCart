@@ -1,14 +1,19 @@
 
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import Nav from '../components/Navbar';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+
 
 
 const Home=()=>{
 return(
 <>
 
-
-
+  <Nav/>
+  <Header/>
+<br /><br />
     <div className="carddiv">
 
 
@@ -133,8 +138,8 @@ return(
     </div>
   
 </div>
-<br /><br /><br /><br />
-       
+<br /><br />
+       <Footer/>
 </>
 )
 }
