@@ -1,0 +1,16 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Stylish Shirt",
+      "price": 799,
+      "image": "https://via.placeholder.com/200"
+    },
+    {
+      "id": 2,
+      "name": "Cool Jacket",
+      "price": 1299,
+      "image": "https://via.placeholder.com/200"
+    }
+  ]
+}
